@@ -1,0 +1,28 @@
+
+/* Container */
+
+.ap_container {
+  padding: 0 0 0 200px;
+}
+
+/* Nav */
+
+.ap_nav {
+  position: fixed;
+  top: 0; left: 0;
+  width: 200px;
+}
+
+.ap_nav_item .ellip {
+  min-width: 50px;
+  max-width: 150px;
+}
+
+/* Wells */
+
+.ap_wells_cnt {
+  display: grid;
+  grid-template-columns: repeat(13, 1fr);
+  grid-gap: 5px;
+
+}
